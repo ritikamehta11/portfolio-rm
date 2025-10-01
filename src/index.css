@@ -1,0 +1,14 @@
+:root {
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  --background-color: #e7ecef;
+  --primary-color : #274c77;
+  --secondary-color: #6096BA;
+}
+body{
+  background-color: var(--background-color);
+  padding: 1em;
+  /* color: var(--primary-color); */
+}
+
