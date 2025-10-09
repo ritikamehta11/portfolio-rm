@@ -4,10 +4,10 @@ export const Profile = () => {
   return (
     <div className="profileData">
       <div className="profileImgDiv">
-        <img src="../../../public/profileImg.jpg"></img>
+        <img src="/public/profileImg.jpg"></img>
       </div>
       <h3>Ritika Mehta</h3>
-      <div className="profileInfo">
+      <div className="infoPara">
         I’m a passionate Web Developer with experience in building responsive
         and user-friendly applications using modern technologies like React,
         Node.js, Express, and MongoDB. With a strong eye for design and detail,
