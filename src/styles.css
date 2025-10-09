@@ -47,9 +47,12 @@ a:hover{
 }
 .infoPara{
   font-size: 0.9em;
-  padding: 0 3em;
+  padding: 0 0.5em;
 }
-h2,h3,h4{
+h2{
+  font-weight: 500;
+}
+h3,h4{
   letter-spacing: 1px;
   font-weight: 400;
 
@@ -63,6 +66,7 @@ h2,h3,h4{
 button{
   padding: 0.5em 1em;
   border-radius: 35px;
+  font-size: 0.7em;
   border: 2px solid var(--primary-color);
   color: var(--primary-color);
 }

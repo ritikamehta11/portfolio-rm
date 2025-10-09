@@ -9,16 +9,16 @@ export const Skills = () => {
       <h3>Skills</h3>
       <div className='logos'>
 
-        <a href=""><FaReact size={30} /></a>
-        <a href=""><FaNode size={30} /></a>
-        <a href=""><FaHtml5 size={30} /></a>
-        <a href=""><FaCss3 size={30} /></a>
-        <a href=""><FaPython size={30} /></a>
-        <a href=""><FaWordpress size={30} /></a>
-        <a href=""><SiJavascript size={30} /></a>
-        <a href=""><SiMysql size={30} /></a>
-        <a href=""><SiMongodb size={30} /></a>
-        <a href=""><BsBootstrap size={30} /></a>
+        <a href=""><FaReact size={50} /></a>
+        <a href=""><FaNode size={50} /></a>
+        <a href=""><FaHtml5 size={50} /></a>
+        <a href=""><FaCss3 size={50} /></a>
+        <a href=""><FaPython size={50} /></a>
+        <a href=""><FaWordpress size={50} /></a>
+        <a href=""><SiJavascript size={50} /></a>
+        <a href=""><SiMysql size={50} /></a>
+        <a href=""><SiMongodb size={50} /></a>
+        <a href=""><BsBootstrap size={50} /></a>
       </div>
     </div>
   )
