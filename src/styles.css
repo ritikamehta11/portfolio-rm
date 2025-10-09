@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
 .container{
   border: 1px solid var(--primary-color);
   padding: 2em 1em;
@@ -50,11 +51,18 @@ a:hover{
   padding: 0 0.5em;
 }
 h2{
-  font-weight: 500;
+  font-weight: 900;
+  font-family: Cormorant;
 }
-h3,h4{
+h3{
+  font-family: Cormorant  ;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+h4{
   letter-spacing: 1px;
-  font-weight: 400;
+  font-weight: 500;
+  margin-bottom: 0%;
 
 }
 .buttons{
@@ -89,9 +97,9 @@ button:hover>a{
 
 .logos{
   display: grid;
-  grid-template-columns: repeat(5, 0fr);
+  grid-template-columns: repeat(3, 0fr);
   justify-content: center;
-  gap: 0.5em;
+  gap: 1.5em;
   flex-wrap: wrap;
 }
 
