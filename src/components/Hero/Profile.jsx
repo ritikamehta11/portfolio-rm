@@ -4,9 +4,9 @@ export const Profile = () => {
   return (
     <div className="profileData">
       <div className="profileImgDiv">
-        <img src="/public/profileImg.jpg"></img>
+        <img src="/profileImg.jpg"></img>
       </div>
-      <h3>Ritika Mehta</h3>
+      <h2>Ritika Mehta</h2>
       <div className="infoPara">
         I’m a passionate Web Developer with experience in building responsive
         and user-friendly applications using modern technologies like React,
