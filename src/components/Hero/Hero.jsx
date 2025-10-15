@@ -4,7 +4,7 @@ import { Profile } from "./Profile";
 
 export const Hero = () => {
   return (
-    <div className="container">
+    <div className="container hero">
       <Navigation />
 <Profile/>
     </div>
