@@ -4,7 +4,7 @@ export const Profile = () => {
   return (
     <div className="profileData">
       <div className="profileImgDiv">
-        <img src="/public/profileImg.jpg"></img>
+        <img src="/profileImg.jpg"></img>
       </div>
       <h2>Ritika Mehta</h2>
       <div className="infoPara">
