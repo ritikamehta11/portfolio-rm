@@ -10,7 +10,7 @@ const projectData = [
 ];
 export const Project = () => {
   return (
-    <div className='container'>
+    <div className='container' id='projects'>
   <h3>Projects</h3>
       <div className='projectsDiv'>
         {

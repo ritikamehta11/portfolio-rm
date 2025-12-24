@@ -17,7 +17,7 @@ export const Profile = () => {
       </div>
 
       <div className="buttons">
-        <button >Download Resume</button>
+        <button ><a href="/RitikaMehtaResume.pdf" download="RitikaMehtaResume.pdf" aria-label="Download my resume"> Download Resume</a></button>
         <button >Contact Me</button>
       </div>
     </div>

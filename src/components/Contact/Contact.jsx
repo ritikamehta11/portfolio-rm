@@ -7,7 +7,7 @@ export const Contact = () => {
   }
   return (
     <>
-      <div className='container'>
+      <div className='container' id='contact'>
         <h3>Contact Me</h3>
         <form action="https://formspree.io/f/xdkwywel" method='POST'>
           <div className='labelInput'>
