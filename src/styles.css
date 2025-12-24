@@ -1,25 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&family=Inter:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Comic+Relief:wght@400;700&family=Roboto+Flex:opsz,wght,XOPQ,XTRA,YOPQ,YTDE,YTFI,YTLC,YTUC@8..144,100..1000,96,468,79,-203,738,514,712&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
 
 :root {
-  --primary-color: #274c77;
-  /* vibrant blue */
-  --secondary-color: #6bc579;
-  /* teal accent */
-  --background-color: #ffffff;
-  --text-color: #242232;
-  --muted-bg: #f8fafc;
+  --primary-color: #fff;
+
+  --secondary-color: #6366f1;
+
+  --background-color: hwb(0 4% 96%);
+  --text-color: #fff;
+  --muted-bg: #a0a0a0;
 }
 
-body {
-  background-color: var(--muted-bg);
-  color: var(--text-color);
-  font-family: 'Inter', sans-serif;
-  line-height: 1.6;
-}
+ body {
+   box-sizing: border-box;
+   color: var(--muted-bg);
+ }
+
+ html {
+   scroll-behavior: smooth;
+ }
 
 /* ---------------------- Container ---------------------- */
 .container {
-  border: 1px solid var(--primary-color);
+  /* border: 1px solid var(--primary-color); */
   /* background-color: var(--muted-bg); */
   padding: 2em 1em;
   margin: 1em 0 2em 0;
@@ -29,7 +31,7 @@ body {
 }
 
 .container:hover {
-  box-shadow: 0px 4px 10px rgba(59, 130, 246, 0.2);
+  box-shadow: 0px 4px 10px var(--secondary-color);
 }
 /* .hero{
   background-image: url(../../herosvg.svg);
@@ -129,6 +131,18 @@ a:hover {
   transform: scale(1.05);
 }
 
+.profileName {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.1em;
+  font-weight: 700;
+  font-size: 4em;
+  margin: 0.2em 0;
+  background: linear-gradient(to right, var(--secondary-color), var(--muted-bg));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+}
+
 .infoPara {
   font-size: 0.9em;
   padding: 0 0.5em;
@@ -137,11 +151,11 @@ a:hover {
 /* ---------------------- Headings ---------------------- */
 h2 {
   font-weight: 900;
-  font-family: 'Cormorant', serif;
+  font-family: 'anton', serif;
 }
 
 h3 {
-  font-family: 'Cormorant', serif;
+  font-family: 'Anton', serif;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -259,7 +273,7 @@ input,
 textarea {
   width: 70%;
   padding: 0.9em;
-  border-radius: 8px;
+  border-radius: 2px;
   border: 1px solid var(--primary-color);
   font-family: 'Inter', sans-serif;
   background-color: var(--background-color);
@@ -328,13 +342,13 @@ form{
 /* ---------------------- Footer ---------------------- */
 .portfolio-footer {
   width: 100%;
-  background-color: var(--muted-bg);
+  /* background-color: var(--muted-bg); */
   color: var(--text-color);
-  font-family: 'Inter', sans-serif;
+  /* font-family: 'Inter', sans-serif; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  border-top: 5px solid var(--secondary-color);
+  border-top: 5px solid var(--muted-bg);
 }
 
 .footer-content {
@@ -342,7 +356,7 @@ form{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2em 0;
+  padding: 1em 0;
   flex-wrap: wrap;
   gap: 1.5em;
 }
@@ -356,6 +370,8 @@ form{
 .logo-text {
   font-size: 1.8em;
   font-weight: bold;
+  font-family: inherit;
+  letter-spacing: 0;
   color: var(--primary-color);
 }
 
@@ -397,7 +413,7 @@ form{
 .copyright {
   width: 100%;
   text-align: center;
-  padding: 1em 0;
+  /* padding: 1em 0; */
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 0.9em;
   color: #666;

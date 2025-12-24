@@ -20,7 +20,7 @@ export const Contact = () => {
           </div>
           <div className='labelInput'>
             {/* <label htmlFor="message">Message</label> */}
-            <textarea type="text" name='message' placeholder=" write your message here" />
+            <textarea type="text" name='message' placeholder=" write your message here"  />
           </div>
           <button type="submit">Submit</button>
         </form>

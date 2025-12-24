@@ -1,12 +1,13 @@
 import React from "react";
+import photo from "../../assets/profileImg.jpg";
 
 export const Profile = () => {
   return (
     <div className="profileData">
-      <div className="profileImgDiv">
-        <img src="/profileImg.jpg"></img>
-      </div>
-      <h2>Ritika Mehta</h2>
+      {/* <div className="profileImgDiv">
+        <img src={photo}></img>
+      </div> */}
+      <h2 className="profileName">Ritika Mehta</h2>
       <div className="infoPara">
         I’m a passionate Web Developer with experience in building responsive
         and user-friendly applications using modern technologies like React,
@@ -21,4 +22,4 @@ export const Profile = () => {
       </div>
     </div>
   );
-};
+}; 

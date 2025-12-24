@@ -1,15 +1,18 @@
 :root {
-  font-family: Roboto Flex;
-  line-height: 1.5;
-  font-weight: 200;
-  --background-color: #e7ecef;
-  --primary-color : #274c77;
-  --secondary-color: #6096BA;
-}
-body{
-  background-color: var(--background-color);
-  padding: 0.3em;
-  
-  /* color: var(--primary-color); */
-}
+  --primary-color: #fff;
 
+  --secondary-color: #6366f1;
+
+  --background-color: hwb(0 4% 96%);
+  --text-color: #fff;
+  --muted-bg: #a0a0a0;
+}
+ body {
+   box-sizing: border-box;
+   background-color: var(--background-color);
+   color: var(--muted-bg);
+ }
+
+ html {
+   scroll-behavior: smooth;
+ }
